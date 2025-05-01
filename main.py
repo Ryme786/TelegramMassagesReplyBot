@@ -2,11 +2,11 @@ import asyncio
 from pyrogram import Client, filters
 
 # Replace with your own values
-api_id = 'YOUR_API_ID'
-api_hash = 'YOUR_API_HASH'
-group_id = -1002xxxxx  # Replace with the actual group ID
+api_id = '19259149'
+api_hash = '67e9ed15eb0adf9d3b391311933fa594'
+group_id = -1002263131759  # Replace with the actual group ID
 
-app = Client("my_account", api_id=api_id, api_hash=api_hash)
+app = Client("6705657501", api_id=api_id, api_hash=api_hash)
 
 @app.on_message(filters.chat(group_id) & ~filters.me)
 async def process_message(client, message):
